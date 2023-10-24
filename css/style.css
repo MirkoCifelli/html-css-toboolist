@@ -6,8 +6,11 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+
+/* general */
 body {
-    background-color: lightgray;
+    background-color: #F6F8F9;
 }
 
 /* header */
@@ -22,4 +25,67 @@ header {
 }
 header h1, header img {
     vertical-align: middle;
+}
+
+
+
+/* main */
+.conteiner {
+    width: 75%;
+    margin: auto;
+    background-color: white;
+}
+.botton {
+    padding: 7px 30px 7px; 
+}
+.Add-task{
+    background-color: #47ADF1;
+    color: white;
+    font-size: 15px; 
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.Add-section{
+    background-color: white;
+    color: #d7d7d7;
+    font-size: 15px;
+    padding: 10px;
+    border:1px solid #ddd ;
+    border-radius: 10px;
+}
+.tabella{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+ul{
+    list-style: none;
+}
+
+.check {
+    border-radius: 50%;
+    border: 1px solid grey;
+    color: grey;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.done {
+    border-color: green;
+    color: green;
+}
+.not-done {
+    border-color: red;
+    color: red;
+}
+li{
+padding: 10px;
+font-size: 20px;
+}
+.blue-chiaro {
+    background-color: #47ADF1;
 }
