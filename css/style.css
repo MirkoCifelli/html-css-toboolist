@@ -86,6 +86,34 @@ li{
 padding: 10px;
 font-size: 20px;
 }
-.blue-chiaro {
+.chiaro {
     background-color: #47ADF1;
+    text-align: center;
+    color: white;
+}
+.circle {
+    height: 200px;
+    width: auto;
+    border-radius: 10px;   
+    padding: 10px;
+    vertical-align: middle;   
+}
+span{
+    margin-right: 10px;
+}
+.violet {
+    background-color:#9C72E4 ;
+}
+
+.lightg{
+    background-color: lightgreen;
+}
+.lorange{
+    background-color: lightsalmon;
+}
+.lpink{
+    background-color: lightpink;
+}
+.lyellow{
+    background-color: #ACC61C;
 }
