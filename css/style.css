@@ -35,6 +35,7 @@ header h1, header img {
     margin: auto;
     background-color: white;
 }
+/* botton */
 .botton {
     padding: 7px 30px 7px; 
 }
@@ -54,6 +55,7 @@ header h1, header img {
     border:1px solid #ddd ;
     border-radius: 10px;
 }
+/* tabella */
 .tabella{
     background-color: white;
     padding: 30px;
@@ -62,7 +64,7 @@ header h1, header img {
 ul{
     list-style: none;
 }
-
+/* check e colori */
 .check {
     border-radius: 50%;
     border: 1px solid grey;
@@ -91,6 +93,8 @@ font-size: 20px;
     text-align: center;
     color: white;
 }
+
+/* circle e colori */
 .circle {
     height: 200px;
     width: auto;
